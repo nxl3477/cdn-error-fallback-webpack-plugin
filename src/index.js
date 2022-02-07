@@ -3,10 +3,10 @@ const lodash = require('lodash')
 const path = require('path')
 const SingleEntryPlugin = require("webpack/lib/SingleEntryPlugin");
 const virtualFilesystem = require('./lib/virtual-file-system');
-const pluginName = 'CdnFallbackWebpackPlugin'
+const pluginName = 'CdnErrorFallbackWebpackPlugin'
 const CDN_FALLBACK_FILE_NAME = '__CDN_FALLBACK_FILE__'
 
-class CdnFallbackWebpackPlugin {
+class CdnErrorFallbackWebpackPlugin {
   
   constructor({ resources = [], inject = 'head' }) {
     if( !['head', 'body'].includes(inject) ) {
@@ -110,7 +110,7 @@ class CdnFallbackWebpackPlugin {
 }
 
 module.exports = {
-  CdnFallbackWebpackPlugin
+  CdnErrorFallbackWebpackPlugin
 }
 
 
