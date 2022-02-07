@@ -1,6 +1,6 @@
 {
   "name": "cdn-error-fallback-webpack-plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "nxl3477",
   "description": "cdn失败回退重载方案",
   "main": "src/index.js",
@@ -9,7 +9,7 @@
     "test": "jest",
     "lint": "eslint \"src/**/*\""
   },
-  "keywords": [],
+  "keywords": ["webpack", "cdn", "error", "plugin"],
   "license": "ISC",
   "repository": {
     "type": "git",
