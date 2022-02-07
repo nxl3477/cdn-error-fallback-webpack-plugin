@@ -14,7 +14,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new CdnFallbackWebpackPlugin({
-      inject: 'head',
+      // inject: 'head',
       resources: [
         ['https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min4442.css', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'],
         ['https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min222.css', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'],
