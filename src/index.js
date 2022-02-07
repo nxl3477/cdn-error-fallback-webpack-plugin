@@ -4,7 +4,7 @@ const path = require('path')
 const SingleEntryPlugin = require("webpack/lib/SingleEntryPlugin");
 const virtualFilesystem = require('./lib/virtual-file-system');
 const pluginName = 'CdnErrorFallbackWebpackPlugin'
-const CDN_FALLBACK_FILE_NAME = '__CDN_FALLBACK_FILE__'
+const CDN_FALLBACK_FILE_NAME = '__CDN_ERROR_FALLBACK_FILE__'
 
 class CdnErrorFallbackWebpackPlugin {
   
