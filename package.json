@@ -19,7 +19,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "http://git.alltuu.ren/frontend/"
+    "url": "https://github.com/nxl3477/cdn-fallback-webpack-plugin"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
