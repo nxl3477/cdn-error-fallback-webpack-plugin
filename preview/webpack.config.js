@@ -1,7 +1,7 @@
 const { join } = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-const { CdnFallbackWebpackPlugin } = require('../src/index')
+const { CdnErrorFallbackWebpackPlugin } = require('../src/index')
 
 module.exports = {
   entry: join(__dirname, './test.js'),
@@ -13,7 +13,7 @@ module.exports = {
 
   plugins: [
     new CleanWebpackPlugin(),
-    new CdnFallbackWebpackPlugin({
+    new CdnErrorFallbackWebpackPlugin({
       // inject: 'head',
       resources: [
         ['https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min4442.css', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'],
