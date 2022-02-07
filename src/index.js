@@ -61,7 +61,6 @@ class CdnFallbackWebpackPlugin {
             })
           }   
           else if( /\.css$/.test(_url[0]) ) {
-            console.log('???sdkjflaskjdfk', injectScripts)
             injectScripts.push({
               tagName: "link",
               selfClosingTag: false,
@@ -110,6 +109,8 @@ class CdnFallbackWebpackPlugin {
   }
 }
 
-module.exports = CdnFallbackWebpackPlugin
+module.exports = {
+  CdnFallbackWebpackPlugin
+}
 
 
