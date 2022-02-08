@@ -1,5 +1,7 @@
 # cdn-error-fallback-webpack-plugin
-Cdn failed to roll back the overload scheme
+cdn resource loading failure solution
+
+CDN资源加载失败解决方案
 
 # Install
 
