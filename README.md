@@ -6,7 +6,7 @@ CDN资源加载失败解决方案
 # Install
 
 ```shell
-npm i postcss-px2vm -D
+npm i cdn-error-fallback-webpack-plugin -D
 ```
 
 
