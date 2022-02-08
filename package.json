@@ -1,6 +1,6 @@
 {
   "name": "cdn-error-fallback-webpack-plugin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "nxl3477",
   "description": "cdn失败回退重载方案",
   "main": "src/index.js",
