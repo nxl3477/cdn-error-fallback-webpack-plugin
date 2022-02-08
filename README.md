@@ -12,7 +12,7 @@ npm i postcss-px2vm -D
 
 ## example
 
-示例：
+demo：
 
 ```javascript
 const { CdnErrorFallbackWebpackPlugin } = require('cdn-error-fallback-webpack-plugin')
